@@ -27,7 +27,60 @@
 
 				<p>Here's a collection of projects I've worked on. Each one represents a real problem I tried to solve using data science, machine learning, and analytical thinking. More projects are being added as I build them.</p>
 
-				<!-- IPL Stats Arena -->
+				<!-- Prime Trade -->
+				<div class="project-card">
+					<h3>Prime Trade — Hyperliquid Trader Intelligence Dashboard</h3>
+					<div class="project-tags">
+						<span class="skill-badge">Python</span>
+						<span class="skill-badge">Chart.js</span>
+						<span class="skill-badge">Data Analysis</span>
+						<span class="skill-badge">Financial Analytics</span>
+						<span class="skill-badge">Web3</span>
+						<span class="skill-badge">JavaScript</span>
+					</div>
+					<p>A data science project analyzing the relationship between the Bitcoin Fear &amp; Greed Index and trader performance on Hyperliquid. Merges 211,000+ on-chain trades (Jan–Dec 2024) with daily sentiment data to uncover hidden patterns — including an 85% win rate during Extreme Greed vs. a 22% win rate during Extreme Fear. Features a live interactive dashboard with KPI cards, sentiment vs PnL charts, hourly heatmaps, and a top-10 trader leaderboard.</p>
+					<ul class="actions" style="margin-top:1rem; margin-bottom:0;">
+						<li><a href="https://crazyshubham.github.io/Prime_Trade/" target="_blank" class="button small primary">Live Demo</a></li>
+						<li><a href="https://github.com/crazyshubham/Prime_Trade" target="_blank" class="button small">View on GitHub</a></li>
+					</ul>
+				</div>
+
+				<!-- InsightScan -->
+			<div class="project-card">
+				<h3>InsightScan — NLP Article Intelligence Pipeline</h3>
+				<div class="project-tags">
+					<span class="skill-badge">Python</span>
+					<span class="skill-badge">NLP</span>
+					<span class="skill-badge">NLTK</span>
+					<span class="skill-badge">BeautifulSoup</span>
+					<span class="skill-badge">pandas</span>
+					<span class="skill-badge">Data Pipeline</span>
+				</div>
+				<p>A fully automated 4-stage NLP data pipeline that scrapes, analyzes, and scores 82 web articles across 15 metrics — with zero manual steps. The pipeline covers web scraping (requests + BeautifulSoup), sentiment analysis using the Loughran-McDonald lexicon (polarity, subjectivity), and readability scoring (Gunning Fog Index, syllable counts, personal pronoun detection) — all exported to a clean Output.xlsx. Results: avg polarity +0.41, avg Fog Index 14.2, 61% of articles classified as positive sentiment.</p>
+				<ul class="actions" style="margin-top:1rem; margin-bottom:0;">
+					<li><a href="https://crazyshubham.github.io/InsightScan/" target="_blank" class="button small primary">Live Demo</a></li>
+					<li><a href="https://github.com/crazyshubham/InsightScan.git" target="_blank" class="button small">View on GitHub</a></li>
+				
+				</ul>
+			</div>
+
+			<!-- AI Code Reviewer -->
+			<div class="project-card">
+				<h3>AI Code Reviewer</h3>
+				<div class="project-tags">
+					<span class="skill-badge">Python</span>
+					<span class="skill-badge">Streamlit</span>
+					<span class="skill-badge">Generative AI</span>
+					<span class="skill-badge">LLM</span>
+				</div>
+				<p>An AI-powered web app that reviews Python code, identifies bugs, and suggests improvements — all through a clean Streamlit interface. Paste your code, get instant AI-generated feedback, bug explanations, and fixed code snippets. Deployed live on Streamlit Cloud.</p>
+				<ul class="actions" style="margin-top:1rem; margin-bottom:0;">
+					<li><a href="https://crazyshubham-ai-code-reviewer.streamlit.app" target="_blank" class="button small primary">Live Demo</a></li>
+					<li><a href="https://github.com/crazyshubham/ai-code-reviewer.git" target="_blank" class="button small">View on GitHub</a></li>
+				</ul>
+			</div>
+
+			<!-- IPL Stats Arena -->
 				<div class="project-card">
 					<h3>IPL Stats Arena</h3>
 					<div class="project-tags">
@@ -58,8 +111,7 @@
 					<p>An interactive Tableau data story exploring 120+ years of Olympic history (1900–2016). Dive into medal tallies by country, year-wise participation trends, gender distribution, athlete age and physical stats, and a geographic map of all Olympic host cities — with interactive filters throughout.</p>
 					<ul class="actions" style="margin-top:1rem; margin-bottom:0;">
 						<li><a href="https://public.tableau.com/views/OlympicStory_17784968513600/StoryofOlympics?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank" class="button small primary">View on Tableau Public</a></li>
-						<li><a href="#" target="_blank" class="button small">GitHub</a></li>
-						<li><a href="#" target="_blank" class="button small">LinkedIn Post</a></li>
+						<li><a href="https://github.com/crazyshubham/Olympic-Story-Tableau-Dashboard" target="_blank" class="button small">View on GitHub</a></li>
 					</ul>
 				</div>
 
@@ -81,6 +133,24 @@
 					</ul>
 				</div>
 
+				<!-- NER Flask Web App -->
+				<div class="project-card">
+					<h3>NLP App — Named Entity Recognition (NER)</h3>
+					<div class="project-tags">
+						<span class="skill-badge">Python</span>
+						<span class="skill-badge">Flask</span>
+						<span class="skill-badge">NLTK</span>
+						<span class="skill-badge">NLP</span>
+						<span class="skill-badge">NER</span>
+						<span class="skill-badge">Session Auth</span>
+					</div>
+					<p>A Flask web app with user authentication (register/login, session-based access control) and a full NLP pipeline: tokenise → POS tag → chunk → extract named entities (Person, Organisation, Location). Results are displayed in a clean, structured table with zero external ML API dependency — deployed live on Render.</p>
+					<ul class="actions" style="margin-top:1rem; margin-bottom:0;">
+						<li><a href="https://flask-app-vdrj.onrender.com" target="_blank" class="button small primary">Live Demo</a></li>
+						<li><a href="https://github.com/crazyshubham/Flask-App" target="_blank" class="button small">View on GitHub</a></li>
+					</ul>
+				</div>
+
 				<!-- IIT Kanpur Virtual Lab -->
 				<div class="project-card">
 					<h3>IIT Kanpur Virtual Lab — Three Phase Induction Motor</h3>
@@ -96,21 +166,6 @@
 						<li><a href="https://virtual-labs.github.io/exp-three-phase-induction-motor-iitk/" target="_blank" class="button small primary">Live Project</a></li>
 						<li><a href="https://github.com/crazyshubham/exp-three-phase-induction-motor-iitk" target="_blank" class="button small">View on GitHub</a></li>
 						<li><a href="https://www.linkedin.com/posts/shubham-upadhyay-b064a9296_frontend-webdevelopment-html-ugcPost-7457043546865446912-YJPA" target="_blank" class="button small">LinkedIn Post</a></li>
-					</ul>
-				</div>
-
-				<!-- Flask Web Application -->
-				<div class="project-card">
-					<h3>Flask Web Application</h3>
-					<div class="project-tags">
-						<span class="skill-badge">Python</span>
-						<span class="skill-badge">Flask</span>
-						<span class="skill-badge">Jinja2</span>
-						<span class="skill-badge">Web Development</span>
-					</div>
-					<p>A dynamic web application built with Python and Flask framework, featuring Jinja2 templating and RESTful routing — demonstrating core backend web development skills.</p>
-					<ul class="actions" style="margin-top:1rem; margin-bottom:0;">
-						<li><a href="https://github.com/crazyshubham/Flask-App" target="_blank" class="button small primary">View on GitHub</a></li>
 					</ul>
 				</div>
 

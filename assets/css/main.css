@@ -2575,18 +2575,14 @@ button,
 }
 
 /* --- Certificate Placeholder --- */
-.cert-placeholder {
-  background: var(--soft);
-  border: 2px dashed var(--accent-border);
-  border-radius: var(--radius);
-  padding: 1.5rem;
-  text-align: center;
-  font-family: 'Space Mono', monospace;
-  font-size: 0.8rem;
-  color: var(--accent);
-  margin-top: 0.8rem;
+.cert-card { text-align: center; }
+.cert-img {
+	width: 100%; height: auto; border-radius: 6px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+	transition: transform 0.2s ease;
 }
-
+.cert-img:hover { transform: scale(1.03); }
+.cert-caption { margin-top: 0.5em; font-size: 0.9em; color: var(--mid); }
 /* --- Nav active state --- */
 #menu nav ul li a:hover {
   color: var(--accent);
